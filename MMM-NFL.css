@@ -1,0 +1,63 @@
+/* Magic Mirror
+ * Module: MMM-NFL
+ *
+ * By jupadin
+ * MIT Licensed.
+ */
+
+.MMM-NFL {
+    font-size: 16px;
+}
+
+.MMM-NFL .tableHeader {
+    text-align: center;
+}
+
+.date {
+    /* font-size: 14px !important; */
+    padding-right: 25px;
+}
+
+.firstTeam {
+    text-align: left;
+    padding-right: 15px;
+}
+
+.firstTeamScore {
+    padding-right: 5px;
+}
+
+.secondTeam {
+    text-align: right;
+    padding-left: 150px;
+}
+
+#MMM-NFL {
+    .score {
+        font-size: 14px;       
+    }
+}
+
+.secondTeamScore {
+    padding-left: 5px;
+}
+
+.byeweek.team .byeweek.logo {
+    text-align: left;
+    padding-right: 15px;
+}
+
+.MMM-NFL .footer {
+    text-align: right;
+    font-size: small;
+    border-top: 1px solid var(--color-text-dimmed);
+}
+
+td img {
+    vertical-align: top;
+}
+
+.uncolored {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
