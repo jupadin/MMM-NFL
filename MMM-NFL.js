@@ -71,7 +71,6 @@ Module.register("MMM-NFL",{
     
     // Define header.
     getHeader: function() {
-        // console.log(this.i++);
         if (!this.loaded) {
             return this.config.header;
         } else {
@@ -211,8 +210,6 @@ Module.register("MMM-NFL",{
             const quarter = document.createElement("div");
             quarter.innerHTML = this.translate(this.states[data.q]);
 
-            console.log(data);
-            console.log(data.p);
             if (data.p === data.h) {
                 console.log("Home Team ball posession");
             }
@@ -246,9 +243,6 @@ Module.register("MMM-NFL",{
             date.innerHTML = `${moment(data.starttime).format(this.config.timeFormat)} (${this.translate(this.states[data.q])})`;
             date.className = "date finished dimmed";
         }
-
-        // TODO: Implement ball posession
-        // console.log(data.p);
 
         // First Team
         const firstTeamName = document.createElement("td");
