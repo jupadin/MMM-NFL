@@ -75,7 +75,7 @@ Module.register("MMM-NFL",{
         if (!this.loaded) {
             return this.config.header;
         } else {
-            return "MMM-NFL - " + this.modes[this.fetchedData.details.type] + " " + this.fetchedData.details.year + " - Week " + this.fetchedData.details.week;
+            return "MMM-NFL - " + this.modes[this.fetchedData.details.type] + " " + this.fetchedData.details.year + " - " + this.translate("WEEK") + " " + this.fetchedData.details.week;
         }
     },
     
