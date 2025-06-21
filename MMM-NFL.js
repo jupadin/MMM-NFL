@@ -8,6 +8,7 @@
 Module.register("MMM-NFL",{
     // Default module config
     defaults: {
+        header: "MMM-NFL",
         animationSpeed: 2 * 1000, // 2 seconds
         updateIntervalLive: 1 * 60 * 1000, // 1 minute
         updateInterval: 60 * 60 * 1000, // 1 hour
