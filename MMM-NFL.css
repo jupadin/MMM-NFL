@@ -13,36 +13,36 @@
     text-align: center;
 }
 
-.date {
+.MMM-NFL .date {
     /* font-size: 14px !important; */
     padding-right: 25px;
 }
 
-.firstTeam {
+.MMM-NFL .firstTeam {
     text-align: left;
     padding-right: 15px;
 }
 
-.firstTeamScore {
+.MMM-NFL .firstTeamScore {
     padding-right: 5px;
 }
 
-.secondTeam {
+.MMM-NFL .secondTeam {
     text-align: right;
     padding-left: 15px;
 }
 
-#MMM-NFL {
+/* #MMM-NFL {
     .score {
         font-size: 14px;       
     }
-}
+} */
 
-.secondTeamScore {
+.MMM-NFL .secondTeamScore {
     padding-left: 5px;
 }
 
-.byeweek.team .byeweek.logo {
+.MMM-NFL .byeweek.team .byeweek.logo {
     text-align: left;
     padding-right: 15px;
 }
@@ -53,11 +53,11 @@
     border-top: 1px solid var(--color-text-dimmed);
 }
 
-td img {
+.MMM-NFL td img {
     vertical-align: top;
 }
 
-.uncolored {
+.MMM-NFL .uncolored {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
