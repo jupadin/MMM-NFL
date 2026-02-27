@@ -1,0 +1,23 @@
+{
+  "name": "mmm-nfl",
+  "version": "1.0.0",
+  "description": "MagicMirror² module to display the current and upcoming games in the National Football League.",
+  "keywords": [
+    "MagicMirror2"
+  ],
+  "homepage": "https://github.com/jupadin/MMM-NFL#readme",
+  "bugs": {
+    "url": "https://github.com/jupadin/MMM-NFL/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jupadin/MMM-NFL.git"
+  },
+  "license": "MIT",
+  "author": "jupadin",
+  "type": "commonjs",
+  "main": "MMM-NFL.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
