@@ -14,7 +14,7 @@ Module.register("MMM-NFL",{
         updateInterval: 60 * 60 * 1000, // 1 hour
         focus_on: false,
         colored: true,
-        timeFormat: 'dd. HH:mm',
+        timeFormat: "dd, DD.MM, HH:mm ",//'dd. HH:mm',
         showHeaderAsIcons: false,
         showFooter: true,
     },
@@ -335,7 +335,7 @@ Module.register("MMM-NFL",{
 
         // Date
         const date = document.createElement("td");
-        date.className = "byeweek date";
+        date.className = "byeweek score";
         date.setAttribute("colspan", 5);
         date.innerHTML = moment(this.fetchedData.details.w).format("DD.MM.YYYY");
         tableDataRow.appendChild(date);

@@ -47,6 +47,10 @@
     padding-right: 15px;
 }
 
+.MMM-NFL .byeweek.score {
+    text-align: center;
+}
+
 .MMM-NFL .footer {
     text-align: right;
     font-size: small;
