@@ -13,5 +13,4 @@ This module does not have any voice control and is actively maintained (22.06.20
 WIP
 
 ## To-Do
-[ ] Use Nunjuck-Template language instead of vanilla JS.
-[ ] Implement ball posession.
+- [ ] Use Nunjuck-Template language instead of vanilla JS.
